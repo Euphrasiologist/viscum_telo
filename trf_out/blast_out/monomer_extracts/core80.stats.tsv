@@ -1,0 +1,4 @@
+file                                                format  type  num_seqs  sum_len  min_len  avg_len  max_len
+monomer_extracts/core80.monomers.fa                 FASTA   DNA      3,842  377,304       50     98.2      215
+monomer_extracts/core80.monomers.filtered.fa        FASTA   DNA      3,779  365,166       50     96.6      120
+monomer_extracts/core80.monomers.filtered.mafft.fa  FASTA   DNA      3,779  672,662      178      178      178

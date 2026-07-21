@@ -21,6 +21,8 @@ END {
   print "OY728155.1:1-" W
   print "OY728159.1:1-" W
   print "OY728163.1:1-" W
+  print "OY728167.1:1-" W Viscum album genome assembly, chromosome: B1	1020192845
+
 
   # biological chromosome ends
   print "OY728124.1:" len["OY728124.1"]-W+1 "-" len["OY728124.1"]
@@ -33,6 +35,7 @@ END {
   print "OY728158.1:" len["OY728158.1"]-W+1 "-" len["OY728158.1"]
   print "OY728162.1:" len["OY728162.1"]-W+1 "-" len["OY728162.1"]
   print "OY728166.1:" len["OY728166.1"]-W+1 "-" len["OY728166.1"]
+  print "OY728167.1:" len["OY728167.1"]-W+1 "-" len["OY728166.1"]
 }' "$FAI" > telo_regions.txt
 
 while read r; do

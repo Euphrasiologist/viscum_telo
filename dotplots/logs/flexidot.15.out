@@ -1,0 +1,45 @@
+[Tue 21 Jul 12:40:51 BST 2026] Processing: telo_windows/OY728155.1_1_2000000.fa
+[Tue 21 Jul 12:41:52 BST 2026] Finished: OY728155.1_1_2000000
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@node-12-1-3>
+Subject: Job 302129[15]: <flexidot[1-20]%5> in cluster <farm22> Done
+
+Job <flexidot[1-20]%5> was submitted from host <farm22-head2> by user <mb39> in cluster <farm22> at Tue Jul 21 12:39:13 2026
+Job was executed on host(s) <node-12-1-3>, in queue <normal>, as user <mb39> in cluster <farm22> at Tue Jul 21 12:40:51 2026
+</nfs/users/nfs_m/mb39> was used as the home directory.
+</lustre/scratch122/tol/teams/blaxter/users/mb39/viscum_telo> was used as the working directory.
+Started at Tue Jul 21 12:40:51 2026
+Terminated at Tue Jul 21 12:41:52 2026
+Results reported at Tue Jul 21 12:41:52 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./run_flexidot.bash
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   60.70 sec.
+    Max Memory :                                 3922 MB
+    Average Memory :                             2265.64 MB
+    Total Requested Memory :                     4000.00 MB
+    Delta Memory :                               78.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   61 sec.
+    Turnaround time :                            159 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <dotplots/logs/flexidot.15.err> for stderr output of this job.
+

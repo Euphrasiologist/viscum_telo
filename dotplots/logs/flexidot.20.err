@@ -1,0 +1,107 @@
+
+[1;34mCMD line input[0m
+  $/nfs/users/nfs_m/mb39/miniconda3/bin/flexidot -i telo_windows/OY728166.1_1496831828_1498831827.fa -m 0 -k 15 -o dotplots/flexidot_k15/OY728166.1_1496831828_1498831827
+
+[1;34mInput/Output Arguments:[0m
+  Input files [-i]: ['telo_windows/OY728166.1_1496831828_1498831827.fa']
+[92m  Input file found: telo_windows/OY728166.1_1496831828_1498831827.fa[0m
+  Output prefix [-o]: dotplots/flexidot_k15/OY728166.1_1496831828_1498831827
+  Output directory [--outdir]: .
+[92m  Output directory found: .[0m
+
+[1;34mCollage Arguments:[0m
+  Collage [-c]: False
+  Number of columns per page [--n_col]: 4
+  Number of rows per page [--n_row]: 5
+
+[1;34mFile Type:[0m
+  Output file format [-f]: png
+
+[1;34mSorting:[0m
+  Sort sequences alphabetically [-s]: False
+
+[1;34mCalculation Parameters:[0m
+  Wordsize (kmer length) [-k]: 15
+  Modes [-m]: self [default]
+  Sequence type [-t]: nuc
+  Wobble conversion [-w]: False
+  Maximum 'N' percentage [-n_max]: 10%
+  Substitution count [-S]: 0
+  No reverse complementary matches [-r]: False
+  Only vs first sequence [-O]: False
+
+[1;34mGraphic Formatting:[0m
+  Line width [-A]: 1
+  Line color (forward) [-B]: black
+  Line color (reverse) [-C]: green
+  X-label position [-D]: top
+  Font size [-E]: 10
+  Spacing between dotplots [-F]: 0.04
+  Length scaling [-L]: False
+  Mirror y-axis [-M]: False
+  Plot size [-P]: 10
+  Representation [-R]: full [default]
+  Title length [-T]: 50
+
+[1;34mGFF Shading:[0m
+  GFF files [-g]: None
+
+[1;34mLongest Common Subsequence (LCS) Shading:[0m
+  LCS shading [-x]: False
+  LCS shading intervals [-X]: 5
+  LCS shading reference [-y]: maximal LCS length [default]
+  LCS shading interval length [-Y]: 50
+  LCS shading orientation [-z]: forward [default]
+
+[1;34mCustom Matrix Shading:[0m
+  User matrix file [-u]: None
+  User matrix print [-U]: False
+
+[1;34mOther Options:[0m
+  Logging level [--loglevel]: INFO
+  Log file [--logfile]: None
+  Version [-v]: 2.1.0
+
+[07/21/26 12:41:30] INFO     Requested plotting modes: 0: self        app.py:166
+                                                                                
+                             ========================================           
+                             ==========                                         
+                    INFO     Calling selfdotplot                      app.py:176
+                    INFO     Reading sequences from         file_handling.py:128
+                             telo_windows/OY728166.1_149683                     
+                             1828_1498831827.fa                                 
+[07/21/26 12:42:05] INFO                                         plotting.py:461
+                             ===================================                
+                             ===============                                    
+                                                                                
+                             Creating 1 selfdotplot images                      
+                             ----------------------------                       
+                                                                                
+                             =>                                                 
+                             - OY728166.1:1496831828-1498831827                 
+                                                                                
+                             Drawing selfdotplots done.                         
+                                                                                
+                    INFO                                              app.py:204
+                             -> Image file(s):                                  
+                             ./dotplots/flexidot_k15/OY728166.1_14968           
+                             31828_1498831827-Selfdotplots-1_OY728166           
+                             .1:1496831828-1498831827_wordsize15.png            
+                                                                                
+                             ========================================           
+                             ==========                                         
+                    INFO                                              app.py:324
+                             Finished! Thank you for using FlexiDot.            
+                                                                                
+                             Please remember to cite FlexiDot as                
+                             follows:                                           
+                                                                                
+                             Kathrin M Seibt, Thomas Schmidt, Tony              
+                             Heitkam,                                           
+                             FlexiDot: highly customizable,                     
+                             ambiguity-aware dotplots for visual                
+                             sequence analyses,                                 
+                             Bioinformatics, Volume 34, Issue 20,               
+                             October 2018, Pages 3575–3577,                     
+                             https://doi.org/10.1093/bioinformatics/b           
+                             ty395                                              
